@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background {
+    background-color: rgb(31, 94, 148);
+    width: 400px;
+    height: 100px;
+
+}
+.profile {
+   width: 400px;
+   height: 90px;
+   position: absolute;
+   top: 40px;
+}
+#image {
+    height: 80px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    border-style: solid;
+    padding: 2px;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: white;
+}
+.main > *{
+   padding-left: 10px;
+   
+}
+.name {
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size:22px;
+}
+ .description, .location {
+    color: grey;
+    font-size: 12px;
+}
+.name {
+    margin-bottom: 3pxpx;
+}
+
+.title, .description {
+    margin-bottom: 6px;
+    font-size: 12px;
+}
